@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGNUP | SSENSE</title>
+    <title>LOGIN | SSENSE</title>
 
     <link rel="stylesheet" href="./Styles/navbar.css" />
     <link rel="stylesheet" href="./Styles/footer.css" />
     <link rel="stylesheet" href="./Styles/cart.css" />
-    <link rel="stylesheet" href="./Styles/sigup.css" />
+    <link rel="stylesheet" href="./Styles/login.css" />
 
 
 
@@ -36,7 +36,8 @@
 
             <div>
                 <p>ENGLISH</p>
-                 <a href="login.html"> <p>LOGIN</p> </a>
+                <a href="login.html"> <p>LOGIN</p> </a>
+
                  <a href="wishlist.html"> <p>WISHLIST (<span id="wishlistCount">0</span>)</p> </a>
 
                 <a href="cart.html"> <p>SHOPPING BAG (<span id="bagCount">0</span>)</p> </a>
@@ -48,36 +49,21 @@
     <!-- Bag Section -->
     <div id="Container">
 
-       <div id="signupDiv">
+       <div id="loginDiv">
 
-        <form action="">
+        <form>
             
-            <p>CREATE AN ACCOUNT</p> <br>
-
-            <label  for="">Name</label> <br>
-            <input id="name" type="text"  required> <br>
-
-            <label  for="">Mobile Number</label> <br>
-            <input id="phn" type="number"  required> <br>
+            <p>Login</p> <br>
             
-            <label  for="">Email Address</label> <br>
-            <input id="email" type="email"  required> <br>
+            <label for="">Email Address</label> <br>
+            <input id="LoginEmail" type="email" required> <br>
 
-            <label  for="">Password</label> <br>
-            <input id="pass" type="password" required> <br>
+            <label for="">Password</label> <br>
+            <input id="LoginPass" type="password" required> <br>
 
-            <label  for="">Confirm Password</label> <br>
-            <input id="pass2" type="password" required> <br>
+            <input id="Login" type="submit" value="Login">
 
-            <input id="Signup" type="submit" value="CREATE AN ACCOUNT"> 
-
-            <p>Already have an account? <a href="login.html"> Login</a></p>
-
-            <p>When you create an SSENSE account, we collect your email and other personal data to enhance your shopping experience and, subject to your agreement, to provide you with exclusive email updates, promotions and notifications. We may also use third party search engines and social media platforms to deliver our updates, promotions and notifications to you.</p>
-
-            <p>You may unsubscribe at any time.</p>
-
-            <p>To find out more, please visit our <a href=""><span>Privacy Policy</span></a>.</p>
+            <p>Don't have an account? <a href="signup.html"> Sign Up</a></p>
             
            </form>
        </div>
@@ -110,4 +96,4 @@
 </body>
 </html>
 
-<script src="./scripts/signup.js"></script>
+<script src="./scripts/login.js"></script>

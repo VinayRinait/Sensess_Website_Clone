@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKOUT | SSENSE</title>
+
+    <link rel="stylesheet" href="./Styles/navbar.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <link rel="stylesheet" href="./Styles/cart.css" />
+    <link rel="stylesheet" href="./Styles/checkout.css" />
+
+
+
+</head>
+<body>
+
+    <div id="navbar">
+        <!-- <div>
+            <p>Limited time: 15% off your next purchase with code FW2022 at checkout. Conditions apply. <span id="close">x</span></p>
+        </div> -->
+
+        <div id="bottom">
+            <div>
+                <a href="mens.html"> <p>MENSWEAR</p></a>
+                
+                <p>WOMENSWEAR</p>
+                <p>EVERYTHING ELSE</p>
+                <p>SEARCH</p>
+            </div>
+            
+            <div>
+                <a href="index.html"> <p id="Home">SSENSE</p></a>
+            </div>
+
+            <div>
+                <p>ENGLISH</p>
+                <a href="login.html"> <p>LOGIN</p> </a>
+
+                <a href="wishlist.html"> <p>WISHLIST (<span id="wishlistCount">0</span>)</p> </a>
+
+
+                <a href="cart.html"> <p>SHOPPING BAG (<span id="bagCount">0</span>)</p> </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Bag Section -->
+    <div id="Container">
+
+        <div id="right">
+            
+            <form action="">
+                <p>Checkout</p>
+
+                <label for="">Shipping Address</label>
+                <hr>
+
+                <label for="">First Name</label> <br>
+                <input type="text" id="nameF" required > <br>
+
+                <label for="" >Last Name</label> <br>
+                <input type="text" id="nameL" required> <br>
+
+                <label for="" >Street Address</label> <br>
+                <input type="text" id="address" required> <br>
+
+                <label for="">City</label> <br>
+                <input type="text" id="city" required> <br>
+
+                <label for="">Pincode</label> <br>
+                <input type="number" id="pincode" required> <br>
+
+                <label for="">Mobile Number</label> <br>
+                <input type="number" id="phn" required> <br>
+
+                <p>Card Details</p>
+                <hr>
+
+                <label for="">Card Holder Name</label> <br>
+                <input type="text" id="cardName" required> <br>
+
+                <label for="">Card Number</label> <br>
+                <input type="number" id="cardNum" required> <br>
+
+                <label for="">Expiration Date</label> <br>
+                <input type="date" id="cardDate" required> <br>
+
+                <label for="">Cvv</label> <br>
+                <input type="number" id="cvv" required> <br>
+
+                <input id="submit" type="submit" value="Place Order">
+
+            </form>
+            
+        </div>
+
+        <div id="left">
+            <div>Shopping Bag</div>
+
+            <div id="title">
+
+                <div>
+                    <span>ITEM</span>
+                </div>
+                <div>
+                    <span>TOTAL</span>
+                </div>
+        
+            </div>
+            <hr>
+
+            <div id="items">
+
+            </div>
+
+            <div id="total">
+
+                <div id="price">
+                    <p>Total</p>
+                    <p id="displayPrice1" ></p>
+                </div>
+
+                <div id="shipping">
+                    <p>Shipping estimate</p>
+                    <p>Calculated at Checkout</p>
+                </div>
+
+                <div id="finalTotal">
+
+                    <h5>Order Total</h5>
+
+                    <h5 id="displayPrice2"></h5>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+       
+
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer">
+        <div>
+            <p>COUNTRY/REGION:INDIA</p>
+            <p>NEWSLETTER SIGNUP</p>
+            <p>CUSTOMER CARE</p>
+            <p>LOCATION</p>
+            <p>EDITORIAL ARCHIVE</p>
+            <p>CAREERS</p>
+            <p>AFFILIATES</p>
+            <p>SITEMAP</p>
+            
+        </div>
+
+        <div>
+            <p>© 2022 ssense.com</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+            <p>Cookies</p>
+            <p>Accessibility</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<script src="./scripts/cart.js"></script>
+<script src="./scripts/checkout.js"></script>
